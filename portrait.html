@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portrait Photography — CEO Visuals &amp; Lightworks, Lagos</title>
+<meta name="description" content="Executive and personal portrait photography in Lagos — studio and on-location sessions.">
+<link rel="icon" type="image/webp" href="assets/favicon.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+
+  <nav id="siteNav">
+    <a class="nav-mark" href="index.html">CEO Visuals &amp; Lightworks</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="nature.html">Nature</a>
+      <a href="portrait.html" class="active">Portraits</a>
+      <a href="photoshoots.html">Photoshoots</a>
+      <a href="birthday.html">Birthdays</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="page-hero">
+    <p class="eyebrow">Portraiture</p>
+    <h1>A portrait that looks like you, on your best day.</h1>
+    <p class="lede">Executive headshots, personal branding, and considered portraits — in studio or on location.</p>
+  </header>
+
+  <div class="divider"></div>
+
+  <section class="category-detail">
+    <div class="copy">
+      <h2>For founders, professionals &amp; personal brands</h2>
+      <p>Most portrait sessions start with a short call about how the images will be used — LinkedIn, a website, a press kit, or simply for yourself — because that changes how we light and frame the shot.</p>
+      <p>We shoot both in a controlled studio setup and on location if you want a backdrop that says something about you — your office, a favourite part of the city, or somewhere with a story.</p>
+      <p>Wardrobe guidance is included ahead of the shoot, so you walk in already knowing what works.</p>
+      <a class="cta ink" href="index.html#contact">Book a Portrait Session</a>
+    </div>
+    <div class="whats-included">
+      <h3>What's Included</h3>
+      <ul>
+        <li>45–60 minute session, studio or on-location</li>
+        <li>Pre-shoot wardrobe &amp; styling guidance</li>
+        <li>Multiple outfit/setup changes</li>
+        <li>15+ professionally retouched images</li>
+        <li>Private online gallery for download</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="section-head">
+      <p class="eyebrow">Recent Sessions</p>
+      <h2>A portrait index</h2>
+    </div>
+    <div class="work-grid">
+      <div class="plate"><div class="plate-inner mood-portrait"><span class="plate-label">Executive</span></div></div>
+      <div class="plate"><div class="plate-inner mood-portrait"><span class="plate-label">Personal Brand</span></div></div>
+      <div class="plate"><div class="plate-inner mood-editorial"><span class="plate-label">On Location</span></div></div>
+      <div class="plate"><div class="plate-inner mood-studio"><span class="plate-label">Studio</span></div></div>
+    </div>
+  </section>
+
+  <footer class="contact" id="contact">
+    <div class="contact-inner">
+      <img class="footer-mark" src="assets/logo.webp" alt="CEO Visuals & Lightworks" width="220" height="159" loading="lazy">
+      <p class="eyebrow">Get in Touch</p>
+      <h2>Book your portrait session</h2>
+      <p class="sub">Tell us how the images will be used, or reach us directly.</p>
+
+      <form class="enquiry-form" id="enquiryForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone / WhatsApp</label>
+            <input type="tel" id="phone" name="phone" placeholder="080..." required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="shootType">Shoot Type</label>
+          <select id="shootType" name="shoot_type">
+            <option value="Portrait" selected>Portrait</option>
+            <option value="Nature">Nature</option>
+            <option value="Photoshoot">Photoshoot / Concept</option>
+            <option value="Birthday">Birthday</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Tell us about the shoot</label>
+          <textarea id="message" name="message" placeholder="What the portraits are for, preferred date, studio or location..." required></textarea>
+        </div>
+        <button type="submit" class="cta solid">Send Enquiry</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+
+      <div class="contact-links">
+        <a class="solid" href="https://wa.me/2348025088816?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20a%20portrait%20photography%20session" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <a href="mailto:emmatimi2008@gmail.com">Email Us</a>
+      </div>
+      <div class="footer-base">
+        <span>&copy; 2026 CEO Visuals &amp; Lightworks</span>
+        <span>Lagos, Nigeria</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
